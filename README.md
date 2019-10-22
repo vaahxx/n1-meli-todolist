@@ -24,8 +24,6 @@ Retornar somente a tarefa encontrada por id
 ##### Requisitos Opcionais #####
 1. Incluir o nome do colaborador que realizou a tarefa
 2. Mostrar somente itens concluídos
-
-GET /tarefas/concluidos/filtrar
+**GET /tarefas/concluidos/filtrar**
 3. Buscar tarefas somente de um determinado colaborador
-
-GET /tarefas/:nome/buscar
+**GET /tarefas/:nome/buscar**
