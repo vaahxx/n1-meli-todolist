@@ -3,7 +3,7 @@
 {reprograma} 
 projeto prático 1
 ```
-#####Requisitos Obrigatórios#####
+##### Requisitos Obrigatórios #####
 
 Você deverá desenvolver uma API a fim de disponibilizar uma lista de tarefas a ser compartilhada entre os funcionários de uma empresa.
 Os dados da tarefa que deverão aparecer, são:
@@ -19,7 +19,7 @@ Retornar a lista de tarefas
 **2.	GET /tarefas/:id**
 Retornar somente a tarefa encontrada por id
 
-#####Requisitos Opcionais#####
+##### Requisitos Opcionais #####
 1. Incluir o nome do colaborador que realizou a tarefa
 2. Mostrar somente itens concluídos.
 GET /tarefas/concluidos/filtrar
