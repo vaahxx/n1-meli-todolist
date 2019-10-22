@@ -14,9 +14,11 @@ Os dados da tarefa que deverão aparecer, são:
 O projeto, resumidamente, deverá conter as seguintes rotas/endpoints com os respectivos retornos (considerar somente a chave, não considerar valor):
 
 **1.	GET /tarefas**
+
 Retornar a lista de tarefas
 
 **2.	GET /tarefas/:id**
+
 Retornar somente a tarefa encontrada por id
 
 ##### Requisitos Opcionais #####
