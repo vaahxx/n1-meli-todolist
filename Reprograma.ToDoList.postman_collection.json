@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "8af5217f-b7b7-40e1-8b30-8e83c3f889c1",
+		"name": "Reprograma.ToDoList",
+		"description": "Primeiro projeto prático da {reprograma}",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tarefas",
+			"item": [
+				{
+					"name": "tarefas.get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/tarefas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"tarefas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tarefas.getById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/tarefas/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"tarefas",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tarefas.getConcluidas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/tarefas/concluidos/filtrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"tarefas",
+								"concluidos",
+								"filtrar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tarefas.getByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/tarefas/luma/buscar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"tarefas",
+								"luma",
+								"buscar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
