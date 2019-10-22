@@ -7,3 +7,10 @@ const port = 3000;
 app.listen(port, function (){
     console.log(`O app está rodando na porta ${port}`);
 });
+
+// importa a rota de tarefas
+const tarefasRoutes = require('./routes/tarefasRoutes');
+
+app.use('/', tarefasRoutes);
+
+module.exports = app;
