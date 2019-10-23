@@ -11,6 +11,6 @@ app.listen(port, function (){
 // importa a rota de tarefas
 const tarefasRoutes = require('./routes/tarefasRoutes');
 
-app.use('/', tarefasRoutes);
+app.use('/tarefas', tarefasRoutes);
 
 module.exports = app;
