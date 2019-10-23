@@ -1,10 +1,14 @@
 # reprograma-projeto-API-I
-```
-{reprograma} 
-projeto prático 1
-```
-##### Requisitos Obrigatórios #####
 
+```
+API Restful - To-do List
+projeto prático do bootcamp back-end {reprograma} 
+feito em node.js usando express.js
+objetivos: manipular requisições do tipo GET e retornar saídas em JSON
+```
+### Instruções ###
+
+##### Requisitos Obrigatórios #####
 Você deverá desenvolver uma API a fim de disponibilizar uma lista de tarefas a ser compartilhada entre os funcionários de uma empresa.
 Os dados da tarefa que deverão aparecer, são:
 1. Descrição da tarefa
