@@ -1,10 +1,10 @@
 # reprograma-projeto-API-I
 
 ```
-API Restful para uma to-do list
+** API Restful para uma to-do list
 projeto prático do bootcamp back-end {reprograma} 
 feito em node.js usando express.js
-objetivos: manipular requisições do tipo GET e retornar saídas em JSON
+objetivo: manipular requisições do tipo GET e retornar saídas em JSON **
 ```
 ### Instruções ###
 
