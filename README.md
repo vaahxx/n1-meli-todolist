@@ -16,9 +16,9 @@ Os dados da tarefa que deverão aparecer, são:
 3. Check para verificar se o item já foi concluído.
 
 O projeto deverá conter as seguintes rotas/endpoints com os respectivos retornos:  
-**1.	GET /tarefas**
+**1.	GET /tarefas**  
 Retornar a lista de tarefas  
-**2.	GET /tarefas/:id**
+**2.	GET /tarefas/:id**  
 Retornar somente a tarefa encontrada por id
 
 ##### Requisitos Opcionais #####
