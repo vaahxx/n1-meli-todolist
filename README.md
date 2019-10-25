@@ -23,7 +23,7 @@ Retornar somente a tarefa encontrada por id
 
 ##### Requisitos Opcionais #####
 - [x] Incluir o nome do colaborador que realizou a tarefa
-- [x] Mostrar somente itens concluídos
+- [x] Mostrar somente itens concluídos  
 **GET /tarefas/concluidos/filtrar**
-- [x] Buscar tarefas somente de um determinado colaborador
+- [x] Buscar tarefas somente de um determinado colaborador  
 **GET /tarefas/:nome/buscar**
